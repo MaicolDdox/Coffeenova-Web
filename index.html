@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoffeeStore</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body class="bg-stone-950 text-amber-50">
+    <div
+      x-data="{ loaded: false }"
+      x-init="setTimeout(() => (loaded = true), 200)"
+      x-cloak
+      x-transition.opacity
+      class="min-h-screen"
+    >
+      <div id="app"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
