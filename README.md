@@ -1,6 +1,6 @@
 <p align="center">
     <a href=""_blank>
-      <img src="docs/assets/logoTipo.png" width="260" alt="Logo de CoffeeNova API">
+      <img src="docs/assets/logo.png" width="260" alt="Logo de CoffeeNova API">
     </a>
 </p>
 
